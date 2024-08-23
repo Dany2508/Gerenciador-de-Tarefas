@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*corpo do site*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /*altura*/
+    background-color: #b5a7dd;
+}
+
+h1{
+    color: #693167; /*cor do titulo*/
+    font-size: 40px;
+}
+
+#conteinerQuadrado{
+    width: 650px; /* Largura do quadrado */
+    height: 53px; /* Altura do quadrado (igual à largura para ser um quadrado) */
+    background-color: #aca5d3;
+    border: 6px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+#conteinerTarefa{
+    margin-bottom: 20px;
+}
+
+input,button{
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;/*tamanho da fonte do input e do botton*/
+}
+
+input{
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    cursor: pointer;
+    background-color: #7e4e7d;
+    color: white; /*cor da letra do button*/
+    /*border: none;*/
+    border-radius: 10px; /*redondar o button*/
+}
+
+button:hover{
+    background-color: #b285b1; /*cor qnd passar o mouse por cima*/
+}
+
+p{
+    font-size: 18px;
+    color: black;
+}
